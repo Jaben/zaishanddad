@@ -22,13 +22,17 @@
       <a href="#" onclick="changeText('Sapnap')">Sapnap</a>
     </div>
 
-    You have clicked: <h1 id="Choice">CLICK ABOVE</h1>
+    <br />
+    <div id="SelectedContainer" style="display: none">
+      You have Selected: <h1 id="Choice">CLICK ABOVE</h1>
+    </div>
   </div>
 
 </body>
 
 <script>
   function changeText(x) {
+    document.getElementById("SelectedContainer").style.display = 'visible';
     document.getElementById("Choice").innerHTML = x;
   }
 </script>
