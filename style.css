@@ -1,0 +1,14 @@
+body {
+    background-image: url("Taco.jpeg") ;
+    color: rgb(255, 255, 255);
+  }
+  p {
+    color: #280cc4;
+    font-weight: 700;
+    font-size: 16pt;
+  }
+  h1 {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
