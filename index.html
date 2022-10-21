@@ -17,19 +17,19 @@
   <div class="dropdown">
     <button class="dropbtn">Which is da best</button>
     <div class="dropdown-content">
-      <a href="#" onclick="doStuff()">George</a>
-      <a href="#" onclick="alert('Cool Choice')">Dream</a>
-      <a href="#" onclick="alert('Cool Choice')">Sapnap</a>
+      <a href="#" onclick="changeText('George')">George</a>
+      <a href="#" onclick="changeText('Dream')">Dream</a>
+      <a href="#" onclick="changeText('Sapnap')">Sapnap</a>
     </div>
 
-    You have clicked: <h1 id="Choice" zaish="donkeypile">CLICK ABOVE</h1>
+    You have clicked: <h1 id="Choice">CLICK ABOVE</h1>
   </div>
 
 </body>
 
 <script>
-  function doStuff() {
-    alert(document.getElementById("Choice").getAttribute("zaish"));
+  function changeText(x) {
+    document.getElementById("Choice").innerHTML = x;
   }
 </script>
 
