@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1> Tacooooooooooooossssssss </h1>
-    <p> Yummy and delicous! </p>
-    <p> Tacos they be bussin </p>
-    <p> They don't have no issues </p>
-    <p> Tacos loved all around </p>
-    <p> Tacos a national food treasure worthy of a good ground </p>
-    <p> Ground beef maybe </p> 
-    <button onclick="location.href='https://www.youtube.com/watch?v=xvFZjo5PgG0'">Click here for fun</button>
-    <div class="dropdown">
-      <button class="dropbtn">Which is da best</button>
-      <div class="dropdown-content">
-        <a href="#" onclick="alert('Cool Choice')">George</a>
-        <a href="#" onclick="alert('Cool Choice')">Dream</a>
-        <a href="#" onclick="alert('Cool Choice')">Sapnap</a>
-      </div>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1> Tacooooooooooooossssssss </h1>
+  <p> Yummy and delicous! </p>
+  <p> Tacos they be bussin </p>
+  <p> They don't have no issues </p>
+  <p> Tacos loved all around </p>
+  <p> Tacos a national food treasure worthy of a good ground </p>
+  <p> Ground beef maybe </p>
+  <button onclick="location.href='https://www.youtube.com/watch?v=xvFZjo5PgG0'">Click here for fun</button>
+  <div class="dropdown">
+    <button class="dropbtn">Which is da best</button>
+    <div class="dropdown-content">
+      <a href="#" onclick="doStuff()">George</a>
+      <a href="#" onclick="alert('Cool Choice')">Dream</a>
+      <a href="#" onclick="alert('Cool Choice')">Sapnap</a>
     </div>
 
-  </body>
+    You have clicked: <h1 id="Choice" zaish="donkeypile">CLICK ABOVE</h1>
+  </div>
+
+</body>
+
+<script>
+  function doStuff() {
+    alert(document.getElementById("Choice").getAttribute("zaish"));
+  }
+</script>
+
 </html>
